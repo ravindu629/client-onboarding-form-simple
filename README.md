@@ -29,9 +29,16 @@ This project is a client onboarding form built with Next.js (App Router), React 
     ```
     The application will be running at `http://localhost:3000`.
 
----
+   ---
 
 ### Key Concepts
 
 * **How RHF + Zod are wired:** The validation rules for all form fields are defined in a single **Zod schema**. The `@hookform/resolvers` library connects this schema to the `useForm` hook from **React Hook Form**. This lets React Hook Form handle all the validation for you automatically, showing inline error messages when a field doesn't match the rules.
 * **Environment Variable:** The URL for the API endpoint is stored in an environment variable named `NEXT_PUBLIC_ONBOARD_URL`. This is a best practice that keeps the endpoint URL separate from your code, making it easy to swap for different environments (e.g., development vs. production).
+
+
+![System Architecture](https://drive.google.com/uc?export=view&id=1c7EMJmWvLrhJtbt1z2JxvTmFBofcByz1)
+
+![System Architecture](https://drive.google.com/uc?export=view&id=1KtXiCcpjFIC6ppGSP9QQjHAxc2606efU)
+
+
