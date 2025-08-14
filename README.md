@@ -8,11 +8,11 @@ This project is a client onboarding form built with Next.js (App Router), React 
 
 1.  **Clone the project:** Go to the project's GitHub page, click the green **"Code"** button, and copy the HTTPS URL. Then, in your terminal, run:
     ```bash
-    git clone [your-repository-url-here]
+    git clone git@github.com:ravindu629/client-onboarding-form-simple.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd [your-project-name]
+    cd client-onboarding-form-simple
     ```
 3.  **Install dependencies:**
     ```bash
@@ -20,7 +20,7 @@ This project is a client onboarding form built with Next.js (App Router), React 
     ```
 4.  **Configure environment variable:** Create a file named `.env.local` in the root of the project and add the API endpoint:
     ```
-    NEXT_PUBLIC_ONBOARD_URL=[https://example.com/api/onboard](https://example.com/api/onboard)
+    NEXT_PUBLIC_ONBOARD_URL=https://example.com/api/onboard
     ```
     Remember to restart your server (`npm run dev`) after creating this file.
 5.  **Run the development server:**
